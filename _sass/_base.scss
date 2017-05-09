@@ -20,11 +20,14 @@ hr.light {
 
 a {
     @include transition-all;
-    color: $theme-primary;
+    color: rgba(255, 255, 255, 0.8);
     &:hover,
     &:focus {
         color: darken($theme-primary, 10%);
     }
+}
+a.underlined {
+  text-decoration: underline;
 }
 
 h1,
@@ -53,6 +56,16 @@ p {
 
 .text-faded {
     color: rgba(white, .7);
+}
+
+.text-faded-big {
+  font-size: 20px;
+  color: rgba(white, 0.8);
+}
+
+.text-big {
+  font-size: 20px;
+  color: rgba(black, 0.8);
 }
 
 section {
@@ -208,7 +221,12 @@ header {
 // Sections
 
 .section-heading {
-    margin-top: 0;
+  margin-top: 0;
+  color: #FFFFFF;
+}
+.section-heading-black {
+  margin-top: 0;
+  color: #000000;
 }
 
 .service-box {
@@ -296,7 +314,7 @@ header {
 
 // Button Styles
 .btn-default {
-    @include button-variant($theme-dark, white, white);
+    @include button-variant($theme-dark, #f0f0f0, white);
 }
 
 .btn-primary {

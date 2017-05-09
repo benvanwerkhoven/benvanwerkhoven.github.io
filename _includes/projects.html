@@ -1,0 +1,49 @@
+
+<!------  test ---->
+
+
+{% for col in site.collections %}
+{% if col.label == "projects" %}
+
+{% for project in col.docs %}
+
+    {% if project.background %}
+    <section style="background: url({{ project.background }}) no-repeat center right;"
+    {% else %}
+    <section
+    {% endif %}
+    {% if forloop.first == true %}
+    id="research">
+    {% else %}
+    >
+    {% endif %}
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 text-justify">
+                    {% if project.text == "faded" %}
+                        <h2 class="section-heading text-center">
+                    {% else %}
+                        <h2 class="section-heading-black text-center">
+                    {% endif %}
+                    {{ project.title }}
+                    </h2>
+                    <hr>
+                    {% if project.text == "faded" %}
+                        {{ project.content | | replace:'<p>','<p class="text-faded-big">' }}
+                    {% else %}
+                        {{ project.content | | replace:'<p>','<p class="text-big">' }}
+                    {% endif %}
+
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+{% endfor %}
+
+{% endif %}
+
+{% endfor %}
