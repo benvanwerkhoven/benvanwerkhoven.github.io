@@ -1,0 +1,32 @@
+{% for col in site.collections %}
+{% if col.label == "publications" %}
+
+<div style="height:50px; width:100%; background: url(img/performance-model.jpg) no-repeat center right;"></div>
+
+<section id="publications">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2">
+
+                    <h2 class="section-heading-black text-center">Publication list</h2
+                    <hr>
+
+                    {% for publication in col.docs %}
+
+                        <p>
+                        {{ publication.authors }}<br />
+                        {{ publication.title }}<br />
+                        <i>{{ publication.journal }}</i> {{ publication.year }}
+                        </p>
+
+                    {% endfor %}
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+{% endif %}
+
+{% endfor %}
