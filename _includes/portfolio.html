@@ -19,16 +19,17 @@
 
             {% for item in col.docs %}
             <div class="col-lg-4 col-sm-6">
-                <a href="img/portfolio/{{ item.image }}" class="portfolio-box">
-                    <img src="img/portfolio/{{ item.image }}" class="img-responsive" alt="">
+                <a href="img/portfolio/fullsize/{{ item.image }}" class="portfolio-box">
+                    <img src="img/portfolio/thumbnails/{{ item.image }}" class="img-responsive" alt="">
                     <div class="portfolio-box-caption">
                         <div class="portfolio-box-caption-content">
                             <div class="project-category text-faded">
                                 {{ item.title }}
                             </div>
-                            <div class="project-name">
+                            <!--- <div class="project-name">
                                 {{ item.comment }}
                             </div>
+                            --->
                         </div>
                     </div>
                 </a>
