@@ -1,6 +1,6 @@
 ---
 title: GPU Computing
-background: img/virus-medium.jpg
+background: img/cluster-medium.jpg
 text: faded
 ---
 
