@@ -1,6 +1,6 @@
 ---
 title: Auto-tuning GPU code
-background: img/GEMM-pretty-picture-edited-1900.png
+background: img/GEMM-pretty-picture-edited-1900-lighter.png
 ---
 
 I've created the Kernel Tuner to make it as simple as possible to auto-tune and test CUDA and OpenCL kernels using simple Python scripts.
