@@ -1,6 +1,6 @@
 ---
 title: ESiWACE2
-background: img/high-resolution-climate-model-esiwace2.jpg
+background: img/earth.jpg
 background-outline: center center
 box: faded
 ---

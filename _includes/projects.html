@@ -5,9 +5,9 @@
 
     {% if project.background %}
         {% if project.background-outline %}
-            <section style="background: url({{ project.background }}) no-repeat {{ project.background-outline }};"
+            <section style="background: url({{ project.background }}) no-repeat {{ project.background-outline }}; background-size: cover;"
         {% else %}
-            <section style="background: url({{ project.background }}) no-repeat center right;"
+            <section style="background: url({{ project.background }}) no-repeat center right; background-size: cover;"
         {% endif %}
     {% else %}
     <section
@@ -20,11 +20,15 @@
 
         <div class="container">
             <div class="row">
+
                 <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2"
                     {% if project.box == "faded" %}
                         style="background-color: rgba(255, 255, 255, 0.7); border-radius: 25px; padding: 20px;"
                     {% endif %}
                     >
+
+
+
                     {% if project.text == "faded" %}
                         <h2 class="section-heading text-center">
                     {% else %}

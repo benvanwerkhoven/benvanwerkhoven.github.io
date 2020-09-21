@@ -1,6 +1,6 @@
 ---
 title: CORTEX
-background: img/cortex.jpg
+background: img/black-hole.jpg
 background-outline: center center
 box: faded
 ---
