@@ -1,5 +1,6 @@
 ---
 title: NL-RSE
+background: img/nl-rse-bg.jpg
 ---
 
 I am one of the founding members of the Netherlands Research Software Engineer community (NL-RSE).
