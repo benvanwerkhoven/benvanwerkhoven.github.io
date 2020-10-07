@@ -1,6 +1,7 @@
 ---
 title: Performance Modeling
 background: img/performance-model.jpg
+background-outline: center left
 text: faded
 ---
 
