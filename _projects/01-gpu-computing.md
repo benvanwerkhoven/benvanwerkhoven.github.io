@@ -6,11 +6,10 @@ text: faded
 
 GPU Computing is the practice of using Graphics Processing Units for computations other than graphics.
 
-However, developing GPU applications requires computations to be parallelized using specialized programming languages,
-and achieving high performance requires that you understand the underlying hardware.
-
-As such, I've been researching how we can make it easier for other people to use GPUs for their computations.
-Other research topics that interest me are auto-tuning, performance modeling, and source-to-source translation.
+Developing GPU applications requires computations to be parallelized using specialized programming languages,
+and achieving high performance requires a deep understanding of the underlying hardware.
+As such, I've been researching how we can make it easier for researchers to effectively and efficiently use GPUs for their computations.
+Other research topics that interest me are green computing, optimization, auto-tuning, and performance modeling.
 
 My PhD thesis (finished in October 2014) is titled
 <a class="underlined" href="http://www.cs.vu.nl/~bal/vanwerkhoven-phdthesis-final.pdf">
