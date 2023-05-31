@@ -3,7 +3,7 @@ title: NL-RSE
 background: img/nl-rse-bg.jpg
 ---
 
-I a co-founder of the Netherlands Research Software Engineer community (NL-RSE).
+I am co-founder of the Netherlands Research Software Engineer community (NL-RSE).
 Since April 2017, the community has grown rapidly to 200+ members from 35+ institutes within the Netherlands.
 
 I'm also an active member of the international RSE movement by participating
